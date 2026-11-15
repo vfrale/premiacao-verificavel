@@ -1,0 +1,152 @@
+{
+  "G-HMAC": {
+    "planejado_reproduz_registro": true,
+    "colisoes_amostra1": {
+      "media": 127.681,
+      "minimo": 94,
+      "maximo": 163,
+      "esperado": 127.32823799984963
+    },
+    "planejado_amostra1": {
+      "teste": "P7",
+      "aprovado": true,
+      "reprovadas": 0,
+      "c_k": 0,
+      "q": 0.0034311978820346332,
+      "estatisticas": [
+        {
+          "nome": "P7",
+          "proporcao": 0.992,
+          "p_t": 0.00294913614670903,
+          "total": 1000,
+          "aprovada": true
+        }
+      ]
+    },
+    "corrigido": {
+      "amostra1": {
+        "teste": "P7",
+        "aprovado": true,
+        "reprovadas": 0,
+        "c_k": 0,
+        "q": 0.0034311978820346332,
+        "estatisticas": [
+          {
+            "nome": "P7",
+            "proporcao": 0.991,
+            "p_t": 0.4428310913038449,
+            "total": 1000,
+            "aprovada": true
+          }
+        ]
+      },
+      "amostra2": null,
+      "reprovacao_sistematica": false
+    }
+  },
+  "G-MT": {
+    "planejado_reproduz_registro": true,
+    "colisoes_amostra1": {
+      "media": 127.117,
+      "minimo": 93,
+      "maximo": 172,
+      "esperado": 127.32823799984963
+    },
+    "planejado_amostra1": {
+      "teste": "P7",
+      "aprovado": true,
+      "reprovadas": 0,
+      "c_k": 0,
+      "q": 0.0034311978820346332,
+      "estatisticas": [
+        {
+          "nome": "P7",
+          "proporcao": 0.993,
+          "p_t": 0.0005334344225653892,
+          "total": 1000,
+          "aprovada": true
+        }
+      ]
+    },
+    "corrigido": {
+      "amostra1": {
+        "teste": "P7",
+        "aprovado": true,
+        "reprovadas": 0,
+        "c_k": 0,
+        "q": 0.0034311978820346332,
+        "estatisticas": [
+          {
+            "nome": "P7",
+            "proporcao": 0.993,
+            "p_t": 0.6454483509117654,
+            "total": 1000,
+            "aprovada": true
+          }
+        ]
+      },
+      "amostra2": null,
+      "reprovacao_sistematica": false
+    }
+  },
+  "G-RANDU": {
+    "planejado_reproduz_registro": true,
+    "colisoes_amostra1": {
+      "media": 1058.415,
+      "minimo": 961,
+      "maximo": 1168,
+      "esperado": 127.32823799984963
+    },
+    "planejado_amostra1": {
+      "teste": "P7",
+      "aprovado": false,
+      "reprovadas": 1,
+      "c_k": 0,
+      "q": 0.0034311978820346332,
+      "estatisticas": [
+        {
+          "nome": "P7",
+          "proporcao": 0.0,
+          "p_t": 0.0,
+          "total": 1000,
+          "aprovada": false
+        }
+      ]
+    },
+    "corrigido": {
+      "amostra1": {
+        "teste": "P7",
+        "aprovado": false,
+        "reprovadas": 1,
+        "c_k": 0,
+        "q": 0.0034311978820346332,
+        "estatisticas": [
+          {
+            "nome": "P7",
+            "proporcao": 0.0,
+            "p_t": 0.0,
+            "total": 1000,
+            "aprovada": false
+          }
+        ]
+      },
+      "amostra2": {
+        "teste": "P7",
+        "aprovado": false,
+        "reprovadas": 1,
+        "c_k": 0,
+        "q": 0.0034311978820346332,
+        "estatisticas": [
+          {
+            "nome": "P7",
+            "proporcao": 0.0,
+            "p_t": 0.0,
+            "total": 1000,
+            "aprovada": false
+          }
+        ]
+      },
+      "reprovacao_sistematica": true
+    }
+  }
+}

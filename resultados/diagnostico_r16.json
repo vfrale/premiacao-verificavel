@@ -1,0 +1,930 @@
+{
+  "G-RANDU-R16": {
+    "razao_variancia_bloco": 1.0138664518103147,
+    "erro_padrao": 0.0015909283896900328,
+    "correlacao_palavras_defasagem_1_a_7": [
+      0.00046,
+      0.00643,
+      0.0002,
+      0.0011,
+      -0.00015,
+      0.00022,
+      -9e-05
+    ]
+  },
+  "G-HMAC": {
+    "razao_variancia_bloco": 1.0002806242784381,
+    "erro_padrao": 0.0016843971274788714,
+    "correlacao_palavras_defasagem_1_a_7": [
+      -0.00022,
+      0.00037,
+      0.00059,
+      7e-05,
+      -0.00054,
+      -0.00023,
+      -9e-05
+    ]
+  },
+  "sementes": [
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1274026271"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1054810775"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1635840271"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "386714661"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "52837437"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "2022444127"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "460513957"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "529434403"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1464860031"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1108792997"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1304836053"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1682874615"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "124978253"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1605477009"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1298022759"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "181165363"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1708024637"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "152913781"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1576670339"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "503907371"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1882222815"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1267171295"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1956407287"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "106038093"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "160402051"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "969381507"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "549944105"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "838879745"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1171773117"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "363692993"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "398150381"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "119468697"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1727925731"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "925612983"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "880475485"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "410465697"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "339154799"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "175716357"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "69204893"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "522782641"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1623632767"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "680043583"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "578813125"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "657435253"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "886649059"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1676150927"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "913272913"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "280699389"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1477732267"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1363941689"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1626753521"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "939392285"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1542078035"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1639813427"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "480251559"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "745154501"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "496280953"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "2066671315"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "40455043"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1323675927"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "409237869"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1706071143"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "823526375"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1554606539"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1271929065"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1285774675"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "144159667"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "203914927"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1679785737"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1705609643"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1337944461"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1718986593"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1734623359"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "431913613"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "836979841"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "971799603"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "352112533"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1354808865"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1045042519"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "992729447"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "523383689"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1789660877"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "374605955"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "2098952593"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1547181685"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "149355821"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "30506455"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1793297631"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "790908107"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "676940267"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1173421001"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "2039306643"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1474268823"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "108190327"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "446280331"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "2034685341"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "1188562921"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "95770443"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "482402777"
+    },
+    {
+      "gerador": "G-RANDU-R16",
+      "semente": "185876349"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "7749adc6ac1b5576499b0f21e205c8d68a2becdcd014c25139bfc4d053dca806",
+      "semente_participante": "671870633067803a19dd2e504f71ef00"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "83964be507d68d4c42ff27d7e0ac6775317b2f92238d4d0ecfde3a151093ff52",
+      "semente_participante": "c16e26fb6f626d047248f0c9c9a98ff7"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "5151da726baef7641516e4184dc1d64810f7cbacd9ab80b3673745bf6bbd17b9",
+      "semente_participante": "0c9afe20b6a73dcdc8614ca7b98d9847"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "328eb212be471678c05f785a1ebe3e37e05ee1ade6d09ceef23c6a489845ca7e",
+      "semente_participante": "b6b017306d5e84bcd1cbabbac3d41ea7"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "611c80be952c1196aa8b51dad6847338075efa7f124f28436f949d1af6dbc64a",
+      "semente_participante": "e3ee03d1e7cb8b845fb1b6cb9f2ccb79"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "05bebc034d6ca8477e73b221bf31d9e35440f63cb7260e3fc89bec976cbec682",
+      "semente_participante": "0b616f21373df1a425d2c83607c87869"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "dc1133141fcce6ef89204d7c6a131626ed5c7066e5692fd325d91fc1cf94a9da",
+      "semente_participante": "a0a06218205fdf2f1c7efce9e19e98b5"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "7f20bb145624c836868f55c4264a6ac5d823ef69b7533538292dc737c925012d",
+      "semente_participante": "39bd3efee5a00801da2a2ba46862716f"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "0648facf960685b312d2e226a70ce3627b660bf6f944bdff2350852178c035b8",
+      "semente_participante": "f064596c824cee89b39c8cc0b8bc6650"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "fd5ee593301db770b5b8b97587a58cc7805eb343f4cf085e94dfeeede37799d2",
+      "semente_participante": "209222909f8d2d166d1dcb890ea572bb"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "15f7dfb481dae89dfa09784c1060e8999d30c926c66913d3f79cc27350191a4c",
+      "semente_participante": "a0129acd69b02d737989a5c49695ebdc"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "9fd67d73f8e42a73df90f9120dcf841167773597f0bccc329da8dc758d2518c2",
+      "semente_participante": "93fa849bd450dc06fae3d45335c11199"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "4e51b96a8f7bbd5612b8507a0651d08b877d198884d8f5cfc7afcc114d802fbb",
+      "semente_participante": "934bd0dc3f9690aa012c97ea0f85e635"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "0e8902be959655bd2c5bcfad52828d001f02d0442610270cd3f7ba277b500c81",
+      "semente_participante": "ce1ed8fe9fdce18fe2c8e0e663ec981d"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "8d50a41a7d40a262e853cd5f3f54e5fde82ae0cd19c05802081ab1bcab5e89f4",
+      "semente_participante": "df3fb1fc9a4dd1b78579471356ee0539"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "6a9bae24c459fabd7b6b909b7daf43de54d62cdd979bad144c78978c596631a1",
+      "semente_participante": "4f8a5a610efcd6533aeb42bf1998f3df"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "186d718849cbe1c42fcec2b11bcefe6d28849bc91ed78a90522751c87def9b74",
+      "semente_participante": "27c0a7cfd7a96341c81be0f76205cef3"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "f007f094a1b13887801a4d6097473026100bf7ec798e3689cfe30d63fb8cd3e7",
+      "semente_participante": "c1dc9995b583866c68ef58117da725dc"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "90f9b2c5f8094a7008f8cdbc772a85841d5d7888416740769366f2f0333380fa",
+      "semente_participante": "f56a651bbfac1a1c9a1e8c0aa5ae0b43"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "23cf0ef28c07787b3753ccc5203fea3285b8811c5b5745a76a40dd836ce40e32",
+      "semente_participante": "5930a360e1055371e4a1e564b462927d"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "288987d2268be7f1d3215a29201cc67bc6391035372242e7a35cbc3f52b43a98",
+      "semente_participante": "99ad49427212039fe94f769f34224659"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "cfb4295ec8d9a3826c4bd656d40a01e674caa9acc51d10d52f0341ab593dfacf",
+      "semente_participante": "dad435d29b0ca09ec0a4d98a03854b64"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "50ebdccb9b3be3d399a6e45634ce1a9e90b7151847b9901ce81aa0fe06013d60",
+      "semente_participante": "9da8db6565591c02da876a3ef0e77536"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "aaf6984d99a6b30e72bf0f8b73702d3fbf9789828a918d1f161f464c86ed5bc2",
+      "semente_participante": "b6b47bffa0563bfaea79dd0c5d739c4d"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "e43deebeccc4563da431041aa7194b431bc9a9ed7f354211312caade3731f4e3",
+      "semente_participante": "0e86627909e67d9d5f27e78aae037fa7"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "51905b39a02f858415684fd8f65d5963b5741e33df2362f3959192b5860b3608",
+      "semente_participante": "39c83cfd28e52c5be975861440dbfb1e"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "692eeb199ba99dc898bd28b0c2c12b4040ca98a52dd11d0f967b4caa544d5173",
+      "semente_participante": "4e3faa8f5816e31fe2a539df2c497b3e"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "cdb4a6388eff1a7540c501aec90bccffefa937b554f6281182464cfbfac6f7e2",
+      "semente_participante": "66170ef33e9d7464cd1ac3256bd43473"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "7e17a6ca297e1007f58f28bc4b8263f691d5c8ecf3caa20ed1eef362a66133dd",
+      "semente_participante": "72227f6e791d6ff3a159eb2e4f151aa0"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "ba7af4a3b0ca5d94ac9268525ba26a250876d92049048cb7e7c2c0655f1e7385",
+      "semente_participante": "66f0b5f2ad482f74b82e40f92567146d"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "5ab2a598eaf7bed417631ea7adc3ba5fce87f6131299b94f22eac3d77701ba15",
+      "semente_participante": "2494bf253d5b72cae0644f6ee9a99829"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "c8d155e15c4a59fdc0d8f75519155ae77d0100586cbd03e474f9053eeb6cf6ce",
+      "semente_participante": "ca6e02221fbc436bdc4b2c5180be4c42"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "e67d78929434f3ea65575efd3ff87175b9068f422c847629c9c568daa6ee63e1",
+      "semente_participante": "fd8ef0ab08d63dbf4ba6749d6d47e6be"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "ad97fbb9be87c1d62c778de4bfe51dec55ea8c99b93348090b6a46423df0315f",
+      "semente_participante": "3330e31ddf17f0f811129f8fdde91494"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "304bb090f3fb70fc12a2ca53ef8f9ed9b24d6d1057d645a2d885ba6ceda499cf",
+      "semente_participante": "3171681e00417ba1b3aac159db17a8e2"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "cb33bfd5aa5fbbad0ab6f5ccb79dfa3969d1bf6d6a67e1948cd72138001d84e4",
+      "semente_participante": "6b78959827689e179106bf317a99cd19"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "81c2435180cb352d74a1aa9fff6498550ec9c7116adaf0e21cebf14d0aaca8a4",
+      "semente_participante": "56d97c42e947525fc415c72cbb15ac48"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "1137ff05608bca38b176c42958f0e43ef14909a4a03504f1b448e207a6dfa68e",
+      "semente_participante": "1d242a01221652a5855a8ba45a6b671c"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "6e407471f9dee4b6735c48b55101eaae800879ea420dc58f81050a59d0ad94c0",
+      "semente_participante": "a8696719c99fc190a37e9a16b93661cd"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "e0389a4894fef2c988709b317b1b94882972787c0cf566bba6db1b4cafa4bcff",
+      "semente_participante": "70a84a6d42266a3b6f8726e67f4959cd"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "7ac5ff1a06315ac756fa5eb85af7e48d1aaf4aa5cc8200c0a0b6c014f0df16f9",
+      "semente_participante": "8f91d177703924818f273cd54c82e9ae"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "b45287b8ef9a88083bf5c4589a1e47fcd237b0658a6c4c30623f41e461e2919f",
+      "semente_participante": "ec5ca97295214ccda84a327fc9d8ef76"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "1f7343bad34b84c35c8fc7ef0a744c46468bad9b51879590ac27a5f05b3e4ce1",
+      "semente_participante": "f8a7de5f30ccf593e6d6a8606d1eece0"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "639de4eeeeea889c28c861c79f9110fa70948f7d8be333668e2b4459365f4fa4",
+      "semente_participante": "a1f7b3b0d6b591e188182228d0ab0ec8"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "deb87d6ad5a0ef57ea65ac130cd2b2a9bc3bf6adfdf409c6c811966915cb3db2",
+      "semente_participante": "ccdc6fe22416792b519f606afb2fc78b"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "8ffc4a6b660afce52a4eee3af1161481b2c362a770ccb1bc3684dc39b422910d",
+      "semente_participante": "bb92517eec11d286f0e7d92fb38c6de4"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "97ccfcb73d91bae29135a35ede0737cbd936bc2d53b6b834a2852f851563f8f2",
+      "semente_participante": "c3f7f79df8d5938fd2273503b31065da"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "9908453365279420519ffca19bf48f9e515b5cd68c667c7255371057c7c4349c",
+      "semente_participante": "b5bf1a68af80121de292e9915e63c0c8"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "a0931d39e78d3226ef4f85bcdb4c5fcb6f07e255870eefe438ac9dad94e765f8",
+      "semente_participante": "6d313e052762bb77a9cb58f714c22646"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "61edfe639f8643fee0befa3b0c3644a7949dfef4f5183d572f6025b72196afb8",
+      "semente_participante": "d877b2d1e8b114ed0e63d1b46e54f0e2"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "5b6ca4451d70b8c242a7c5c3d61f6f84395b3b426df1b90a808aad080fa36d4a",
+      "semente_participante": "1b2c226b4a1fd3fde7789dc55aaf81ac"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "af0ffc886a3db480d309f1dddf37691216bc068fb746d860e478eae35ba91da3",
+      "semente_participante": "f527fed5f73af934193f275416a276ea"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "5a4af8c1be6995a74d63b6f7b2b69a55c87eecbcbb92ee8dddc9cff0f4c7d2e3",
+      "semente_participante": "5f79930ffc9a3e57dc8c5b150fe98fd3"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "68b5a92266f1bf66ecbf9c30d21c21bf94c514f2d97766b4bb48402aa984068f",
+      "semente_participante": "ed4e43e6a05669b975c544e172f7b905"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "2d6c5767fb5745b077c9e027786c7ef4846a6ca36223a06dd0daa83eaf5ba6e8",
+      "semente_participante": "32b943abcada60658bc85424ad979316"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "f2517c7d192c50678cc039dd722766236da48571703beb4114ce9197a34652ea",
+      "semente_participante": "fe82d8184b247f484dad9a4640f3b33e"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "b8bc9f9ed95315ca40f0fc294453c7d52effdbffb6ef18c0ee28f9438572f2ac",
+      "semente_participante": "c36d1ef05f2cb55ceff62ce5c9a09377"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "5f0b9758a04d957998553c335a06aee6cda4fe045236a7c67fb00451eb600806",
+      "semente_participante": "95592cdb566787fca662a8c74175286f"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "ec44c536617fcc4c943f972675d85932786662d31d30191208f66339ef9616da",
+      "semente_participante": "a59b95b9df792b7ba0c86a35aca90f10"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "94ebebecce6fdeb87a6be58433ee2b128fe0b67da93a08dff145f12cb5cea945",
+      "semente_participante": "7979dbfff338954697035008bc582e8b"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "2adb442af62ee795bb36cce8838637fd80ea7a77ee7ec4b050d9b74ef0e89b5d",
+      "semente_participante": "aab3775268a4fbf3360f521e920ef38a"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "7c648308c1df826ca95fd812fec7d222d91989a01ed8e637273b763b0a2ff942",
+      "semente_participante": "a9f4766fe5f5de4947f2f4f30f9e54e2"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "801c79d3aacb6ba457c367b07bb25da4493c5ca7055f90e98513a235fd0827d5",
+      "semente_participante": "ec6134916724972f1c7e6320c4947804"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "bf48db3547b4093951206ed4341a03aaed5f8801468e90470b56e493df73fa70",
+      "semente_participante": "4b5498caa2952a349411e404a0d18038"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "f5003c9633b0256ad42c525ea6257f379a8246122b30d1de8177d65290c0f154",
+      "semente_participante": "c5a26b905edba18afa7a815a14ff6862"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "47af381c138e15bdb7e5bd88168ec9a10a30ccf60585f3ec5b1fa337d4947a67",
+      "semente_participante": "b4a60abf10d6bc6f32a18eddf72438ec"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "a28978daadc7f2fd83bcb69cee7126750ed9b000594544b9c1d5442f77cda884",
+      "semente_participante": "41192e8fcf16dbe9f0538ab57b08ba97"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "fc6b6286861f01dea10807807c465d6da4327768533482f289e2e98f22294e85",
+      "semente_participante": "d8b35832d83aa4e3fefd9c0b5376c90c"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "f7c13ca53df587efdee643d2172abdb7aae1eba0018bfb4ce9b2f3d45b8c13c1",
+      "semente_participante": "f84e22dfa599e5f373900f0192f03e1f"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "23283c6bdd0f2dbeb1ab6adac1d47386753b1d2bf29453f892af06a13c10f429",
+      "semente_participante": "4b5e0bb3dec399b571cf860ddae8c0d4"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "777b5d0c6784b0f985d610a612b0075aafcf9c81a18760c32f195bc1885c709d",
+      "semente_participante": "eb5c762c7ee25e20d7a31ca871259400"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "b611291858395d5a47398fb88c78d08373354bc664b71830fbea811e1c002f28",
+      "semente_participante": "c9c2b6e90db5af84286040ce14dc5884"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "3a94e2ae39e41fa055f2f56f20b84794666383727b6d852deb083ea841c2c5b2",
+      "semente_participante": "802231b49d85d8ce83a57127c69efa0a"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "fc5f56137b22cc5590f4d5d2eb2c9c62d1311175acd68ac9d6065b0d1f9f7706",
+      "semente_participante": "bcc18952d05fc5e24469d08678c0a1a5"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "bada7b92201b5303610c86128498079385679516f5f8decf5ffd152e94f3c5ab",
+      "semente_participante": "c3f1f524a22403677fb207b0aaac783e"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "2a51ce7b03ed5a943e4444b72f173b08dfc6a51c21994a0a403ba5e757278cb8",
+      "semente_participante": "a5e9a8c17d0ec066babdd4bfcc01907b"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "5c4b784bd61b0c4efbf544460d0c536cf507709cf344a3c381d0372f9aa3f9b3",
+      "semente_participante": "9bd46b783e6da70240738653eaa1163d"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "861c4b2c78a1a82778bf8ff4c4a07ead74f66b011b5c2037995555a9004f4354",
+      "semente_participante": "8be01288b69b0121b07d022f635089ea"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "16aa0ed8bc1c59f7656e7e4ab0a1a5e2bf706fae3096d628b687cf03039e92c1",
+      "semente_participante": "3c8112850242da571f41f79a5b32f471"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "71bfb9df563033c3e0a03ea1c1d307fc664a98c0f62a878eaf45c7cf21ed44ac",
+      "semente_participante": "1787f865df5779e315c3a37016423ba2"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "aecf651069956c370b8bae2bed55b78fb4a87d6b726043ccac6bf534742c2ddc",
+      "semente_participante": "db389d77f21ff1dbf7b2fba039a3eeff"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "f5a376152ef19956f3e0dfae85b77c9082b5e61b29f1bbd5f2eb83f586195b41",
+      "semente_participante": "4b4195600b2d510208267e379d2a79fc"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "2f1e0dca1dfb374e8469aac6792d45f29922fbc8d44a65741ec1b756eddf27f9",
+      "semente_participante": "a2050404e8f9a299b3109f398e43ea0d"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "d61353363087aacb6fff7740bed402bfa493d20ba5010edeb963058e7d3f61d1",
+      "semente_participante": "ad28069770cee8e081c1dbed3e0ea59e"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "a530140b96f17d694cde18725559e5311766d50c5aac2fa13ba6f004a90235a9",
+      "semente_participante": "8270fc0c56c73fd34682c60399abc691"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "66b55a9d6e3546086182b9823a0f27ee902123e80a5729aef2f73bc260bdeed1",
+      "semente_participante": "a04ebec8b59d6730c093b3d099efb7e1"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "3d3aa328c04cafeb8aca7a47def5d0aec0544c2791b6b3b2ed92dd24dcd8fa0d",
+      "semente_participante": "556a634935dd315807c8a05c09fa1274"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "61d77643d37a8e53af38fca56601c763f34f7b7038d8e2c71927090411934468",
+      "semente_participante": "33e41615025b5d93af328517a0475d0c"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "b6274f9b4f2779d68a41a257597b7b10406d17858a9d5d1272941d141bf02271",
+      "semente_participante": "2e67c963859f5a351df539414f309468"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "a0b5295d9bcff2d4669b905ef8d5f48af12fed7960b7a4ad81d980e5b67ae6bd",
+      "semente_participante": "ffd2e38ddad9e03ddcba904ea074c2f5"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "78fe8efa0d1a66a40db700d89708153b05040ed50d01c7380c5ab86902c090b3",
+      "semente_participante": "62e6104be178567c07d2cf1b2152b3b0"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "2965c0e0ea9848a9bc542f6e95f8cede119b73cb1b9305b21bff8f38f2e02789",
+      "semente_participante": "48c3588d1a76fd3244d106b954d84277"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "d247c15016db6edc2528eb1d1d356db53224e08494da56b3b998e30929bd5675",
+      "semente_participante": "c0db8e9bbbd2165cb6cbf62c9a23f30e"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "57d5f365353290a96a77531f8305fdce44755b7eb71cbb5c914fdd652e5c6123",
+      "semente_participante": "2c1bc1db8b834a8509339aa9ae3a344d"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "61aa1c5d5e97a494112b4e1b581afce60e4a21fe2faa0272af4d0eb08ec93550",
+      "semente_participante": "36cd2ff1266854a2daaa166f2b47b1c3"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "7f334285152a018f9d6e34b008a7334825a5e6e65c6b1ea8f27aa6bcedcf5cc7",
+      "semente_participante": "b6f37716d32fa711834dcb7a73294c3e"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "199f813d27bc626341fc2fc006487277ac6a0c76bbb9e3c3b682c5e754d180a3",
+      "semente_participante": "9a551b4ce869ce9ee03b20bc83924607"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "fa4c5e770e9a6a175da3c577ef2ab86cc38699522a4a4874d155eccc6300a306",
+      "semente_participante": "a88a8ba092c56f21ac77aa5c99d40ebd"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "349425056cba6bbcf2399ac219897270b79c387afc63cc4cec0dd29ab121f926",
+      "semente_participante": "8572c78d3a1ce0f9ad98dcbbf11c51aa"
+    },
+    {
+      "gerador": "G-HMAC",
+      "semente_servidor": "ccf6899dde0985e1a945175d73eb9e7b1ae5671b79abbe6eaa4a8d2133d93ee2",
+      "semente_participante": "dbd7c29cd5ec7c12380d9fe6f838acc8"
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "parametros": {
+    "experimento": "portaria",
+    "saida": "resultados",
+    "sequencias": 1000,
+    "valores": 100000,
+    "ciclos": 1000,
+    "eventos": 10000,
+    "execucoes": 1000,
+    "sts": null
+  },
+  "resultados": {
+    "G-HMAC": {
+      "P1": {
+        "amostra1": {
+          "teste": "P1",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P1",
+              "proporcao": 0.987,
+              "p_t": 0.7054661337874653,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      },
+      "P2": {
+        "amostra1": {
+          "teste": "P2",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P2",
+              "proporcao": 0.994,
+              "p_t": 0.4029615367972544,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      },
+      "P3": {
+        "amostra1": {
+          "teste": "P3",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P3",
+              "proporcao": 0.989,
+              "p_t": 0.4788392438241842,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      },
+      "P4": {
+        "amostra1": {
+          "teste": "P4",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P4",
+              "proporcao": 0.992,
+              "p_t": 0.8660970613819768,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      },
+      "P5": {
+        "amostra1": {
+          "teste": "P5",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P5",
+              "proporcao": 0.991,
+              "p_t": 0.31454386606430085,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      },
+      "P6": {
+        "amostra1": {
+          "teste": "P6",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P6",
+              "proporcao": 0.987,
+              "p_t": 0.9521520657342692,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      },
+      "P7": {
+        "amostra1": {
+          "teste": "P7",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P7",
+              "proporcao": 0.992,
+              "p_t": 0.00294913614670903,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      }
+    },
+    "G-MT": {
+      "P1": {
+        "amostra1": {
+          "teste": "P1",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P1",
+              "proporcao": 0.992,
+              "p_t": 0.39593956232018906,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      },
+      "P2": {
+        "amostra1": {
+          "teste": "P2",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P2",
+              "proporcao": 0.985,
+              "p_t": 0.6433663247783736,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      },
+      "P3": {
+        "amostra1": {
+          "teste": "P3",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P3",
+              "proporcao": 0.989,
+              "p_t": 0.6163052249833654,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      },
+      "P4": {
+        "amostra1": {
+          "teste": "P4",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P4",
+              "proporcao": 0.992,
+              "p_t": 0.8724254672298021,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      },
+      "P5": {
+        "amostra1": {
+          "teste": "P5",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P5",
+              "proporcao": 0.989,
+              "p_t": 0.7054661337874651,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      },
+      "P6": {
+        "amostra1": {
+          "teste": "P6",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P6",
+              "proporcao": 0.991,
+              "p_t": 0.6600123548951184,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      },
+      "P7": {
+        "amostra1": {
+          "teste": "P7",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P7",
+              "proporcao": 0.993,
+              "p_t": 0.0005334344225653892,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      }
+    },
+    "G-RANDU": {
+      "P1": {
+        "amostra1": {
+          "teste": "P1",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P1",
+              "proporcao": 0.993,
+              "p_t": 0.8110799554901444,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      },
+      "P2": {
+        "amostra1": {
+          "teste": "P2",
+          "aprovado": false,
+          "reprovadas": 1,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P2",
+              "proporcao": 0.0,
+              "p_t": 0.0,
+              "total": 1000,
+              "aprovada": false
+            }
+          ]
+        },
+        "amostra2": {
+          "teste": "P2",
+          "aprovado": false,
+          "reprovadas": 1,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P2",
+              "proporcao": 0.0,
+              "p_t": 0.0,
+              "total": 1000,
+              "aprovada": false
+            }
+          ]
+        },
+        "reprovacao_sistematica": true
+      },
+      "P3": {
+        "amostra1": {
+          "teste": "P3",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P3",
+              "proporcao": 0.99,
+              "p_t": 0.24174090079317234,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      },
+      "P4": {
+        "amostra1": {
+          "teste": "P4",
+          "aprovado": false,
+          "reprovadas": 1,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P4",
+              "proporcao": 0.971,
+              "p_t": 3.1413572047667743e-10,
+              "total": 1000,
+              "aprovada": false
+            }
+          ]
+        },
+        "amostra2": {
+          "teste": "P4",
+          "aprovado": false,
+          "reprovadas": 1,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P4",
+              "proporcao": 0.955,
+              "p_t": 1.857969286059682e-18,
+              "total": 1000,
+              "aprovada": false
+            }
+          ]
+        },
+        "reprovacao_sistematica": true
+      },
+      "P5": {
+        "amostra1": {
+          "teste": "P5",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P5",
+              "proporcao": 0.984,
+              "p_t": 0.7695274038865488,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      },
+      "P6": {
+        "amostra1": {
+          "teste": "P6",
+          "aprovado": true,
+          "reprovadas": 0,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P6",
+              "proporcao": 0.995,
+              "p_t": 0.08002667553526313,
+              "total": 1000,
+              "aprovada": true
+            }
+          ]
+        },
+        "amostra2": null,
+        "reprovacao_sistematica": false
+      },
+      "P7": {
+        "amostra1": {
+          "teste": "P7",
+          "aprovado": false,
+          "reprovadas": 1,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P7",
+              "proporcao": 0.0,
+              "p_t": 0.0,
+              "total": 1000,
+              "aprovada": false
+            }
+          ]
+        },
+        "amostra2": {
+          "teste": "P7",
+          "aprovado": false,
+          "reprovadas": 1,
+          "c_k": 0,
+          "q": 0.0034311978820346332,
+          "estatisticas": [
+            {
+              "nome": "P7",
+              "proporcao": 0.0,
+              "p_t": 0.0,
+              "total": 1000,
+              "aprovada": false
+            }
+          ]
+        },
+        "reprovacao_sistematica": true
+      }
+    }
+  },
+  "duracao_s": 148.0
+}

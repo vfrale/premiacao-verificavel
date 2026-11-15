@@ -1,0 +1,2817 @@
+{
+  "parametros": {
+    "experimento": "nist",
+    "saida": "resultados",
+    "sequencias": 1000,
+    "valores": 100000,
+    "ciclos": 1000,
+    "eventos": 10000,
+    "execucoes": 1000,
+    "sts": [
+      "/home/claude/ferramentas/sts-1",
+      "/home/claude/ferramentas/sts-2"
+    ],
+    "fontes": [
+      "G-RANDU-R31"
+    ],
+    "rotulo": "randu_r31"
+  },
+  "resultados": {
+    "G-RANDU-R31": {
+      "arquivos_amostra1": [
+        "resultados/G-RANDU-R31_amostra1_parte1.bin",
+        "resultados/G-RANDU-R31_amostra1_parte2.bin"
+      ],
+      "arquivos_amostra2": [
+        "resultados/G-RANDU-R31_amostra2_parte1.bin",
+        "resultados/G-RANDU-R31_amostra2_parte2.bin"
+      ],
+      "decisoes": {
+        "Frequency": {
+          "amostra1": {
+            "teste": "Frequency",
+            "aprovado": false,
+            "reprovadas": 1,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "Frequency#1",
+                "proporcao": 0.51,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "amostra2": {
+            "teste": "Frequency",
+            "aprovado": false,
+            "reprovadas": 1,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "Frequency#1",
+                "proporcao": 0.501,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "reprovacao_sistematica": true
+        },
+        "BlockFrequency": {
+          "amostra1": {
+            "teste": "BlockFrequency",
+            "aprovado": false,
+            "reprovadas": 1,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "BlockFrequency#1",
+                "proporcao": 0.002,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "amostra2": {
+            "teste": "BlockFrequency",
+            "aprovado": false,
+            "reprovadas": 1,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "BlockFrequency#1",
+                "proporcao": 0.005,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "reprovacao_sistematica": true
+        },
+        "CumulativeSums": {
+          "amostra1": {
+            "teste": "CumulativeSums",
+            "aprovado": false,
+            "reprovadas": 2,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "CumulativeSums#1",
+                "proporcao": 0.51,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "CumulativeSums#2",
+                "proporcao": 0.51,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "amostra2": {
+            "teste": "CumulativeSums",
+            "aprovado": false,
+            "reprovadas": 2,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "CumulativeSums#1",
+                "proporcao": 0.501,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "CumulativeSums#2",
+                "proporcao": 0.501,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "reprovacao_sistematica": true
+        },
+        "Runs": {
+          "amostra1": {
+            "teste": "Runs",
+            "aprovado": false,
+            "reprovadas": 1,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "Runs#1",
+                "proporcao": 0.509,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "amostra2": {
+            "teste": "Runs",
+            "aprovado": false,
+            "reprovadas": 1,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "Runs#1",
+                "proporcao": 0.501,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "reprovacao_sistematica": true
+        },
+        "LongestRun": {
+          "amostra1": {
+            "teste": "LongestRun",
+            "aprovado": false,
+            "reprovadas": 1,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "LongestRun#1",
+                "proporcao": 0.208,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "amostra2": {
+            "teste": "LongestRun",
+            "aprovado": false,
+            "reprovadas": 1,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "LongestRun#1",
+                "proporcao": 0.195,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "reprovacao_sistematica": true
+        },
+        "Rank": {
+          "amostra1": {
+            "teste": "Rank",
+            "aprovado": true,
+            "reprovadas": 0,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "Rank#1",
+                "proporcao": 0.985,
+                "p_t": 0.9874916794392931,
+                "total": 1000,
+                "aprovada": true
+              }
+            ]
+          },
+          "amostra2": null,
+          "reprovacao_sistematica": false
+        },
+        "FFT": {
+          "amostra1": {
+            "teste": "FFT",
+            "aprovado": false,
+            "reprovadas": 1,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "FFT#1",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "amostra2": {
+            "teste": "FFT",
+            "aprovado": false,
+            "reprovadas": 1,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "FFT#1",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "reprovacao_sistematica": true
+        },
+        "NonOverlappingTemplate": {
+          "amostra1": {
+            "teste": "NonOverlappingTemplate",
+            "aprovado": false,
+            "reprovadas": 130,
+            "c_k": 3,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "NonOverlappingTemplate#1",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#2",
+                "proporcao": 0.163,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#3",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#4",
+                "proporcao": 0.331,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#5",
+                "proporcao": 0.51,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#6",
+                "proporcao": 0.33,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#7",
+                "proporcao": 0.509,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#8",
+                "proporcao": 0.637,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#9",
+                "proporcao": 0.51,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#10",
+                "proporcao": 0.508,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#11",
+                "proporcao": 0.49,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#12",
+                "proporcao": 0.598,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#13",
+                "proporcao": 0.147,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#14",
+                "proporcao": 0.661,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#15",
+                "proporcao": 0.992,
+                "p_t": 0.032922821737752954,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#16",
+                "proporcao": 0.149,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#17",
+                "proporcao": 0.506,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#18",
+                "proporcao": 0.509,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#19",
+                "proporcao": 0.657,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#20",
+                "proporcao": 0.508,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#21",
+                "proporcao": 0.656,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#22",
+                "proporcao": 0.993,
+                "p_t": 0.3619375514397861,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#23",
+                "proporcao": 0.141,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#24",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#25",
+                "proporcao": 0.997,
+                "p_t": 0.017305197914909382,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#26",
+                "proporcao": 0.994,
+                "p_t": 0.013856248335645428,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#27",
+                "proporcao": 0.115,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#28",
+                "proporcao": 0.99,
+                "p_t": 0.9634967562138514,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#29",
+                "proporcao": 0.634,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#30",
+                "proporcao": 0.15,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#31",
+                "proporcao": 0.51,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#32",
+                "proporcao": 0.505,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#33",
+                "proporcao": 0.677,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#34",
+                "proporcao": 0.651,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#35",
+                "proporcao": 0.131,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#36",
+                "proporcao": 0.987,
+                "p_t": 0.4047282640569136,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#37",
+                "proporcao": 0.65,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#38",
+                "proporcao": 0.145,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#39",
+                "proporcao": 0.171,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#40",
+                "proporcao": 0.993,
+                "p_t": 0.7013657757678272,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#41",
+                "proporcao": 0.644,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#42",
+                "proporcao": 0.145,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#43",
+                "proporcao": 0.151,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#44",
+                "proporcao": 0.163,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#45",
+                "proporcao": 0.996,
+                "p_t": 0.3424505041559168,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#46",
+                "proporcao": 0.626,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#47",
+                "proporcao": 0.502,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#48",
+                "proporcao": 0.654,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#49",
+                "proporcao": 0.5,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#50",
+                "proporcao": 0.504,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#51",
+                "proporcao": 0.506,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#52",
+                "proporcao": 0.144,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#53",
+                "proporcao": 0.509,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#54",
+                "proporcao": 0.999,
+                "p_t": 5.461259349463881e-10,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#55",
+                "proporcao": 0.999,
+                "p_t": 4.0532969297293025e-09,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#56",
+                "proporcao": 0.622,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#57",
+                "proporcao": 0.118,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#58",
+                "proporcao": 0.645,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#59",
+                "proporcao": 0.628,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#60",
+                "proporcao": 0.502,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#61",
+                "proporcao": 0.996,
+                "p_t": 0.0007168093291976661,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#62",
+                "proporcao": 0.662,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#63",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#64",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#65",
+                "proporcao": 0.644,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#66",
+                "proporcao": 0.504,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#67",
+                "proporcao": 0.503,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#68",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#69",
+                "proporcao": 0.62,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#70",
+                "proporcao": 0.265,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#71",
+                "proporcao": 0.504,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#72",
+                "proporcao": 0.504,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#73",
+                "proporcao": 0.503,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#74",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#75",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#76",
+                "proporcao": 0.508,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#77",
+                "proporcao": 0.507,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#78",
+                "proporcao": 0.509,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#79",
+                "proporcao": 0.141,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#80",
+                "proporcao": 0.137,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#81",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#82",
+                "proporcao": 0.508,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#83",
+                "proporcao": 0.502,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#84",
+                "proporcao": 0.167,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#85",
+                "proporcao": 0.488,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#86",
+                "proporcao": 0.114,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#87",
+                "proporcao": 0.992,
+                "p_t": 0.0017969306326576547,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#88",
+                "proporcao": 0.641,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#89",
+                "proporcao": 0.507,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#90",
+                "proporcao": 0.122,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#91",
+                "proporcao": 0.993,
+                "p_t": 0.0041766082321183,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#92",
+                "proporcao": 0.636,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#93",
+                "proporcao": 0.992,
+                "p_t": 0.0004598290441174434,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#94",
+                "proporcao": 0.647,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#95",
+                "proporcao": 0.628,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#96",
+                "proporcao": 0.509,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#97",
+                "proporcao": 0.136,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#98",
+                "proporcao": 0.508,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#99",
+                "proporcao": 0.506,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#100",
+                "proporcao": 0.507,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#101",
+                "proporcao": 0.989,
+                "p_t": 0.171866837466844,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#102",
+                "proporcao": 0.506,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#103",
+                "proporcao": 0.129,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#104",
+                "proporcao": 0.645,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#105",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#106",
+                "proporcao": 0.631,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#107",
+                "proporcao": 0.287,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#108",
+                "proporcao": 0.993,
+                "p_t": 0.3719409169514389,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#109",
+                "proporcao": 0.628,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#110",
+                "proporcao": 0.642,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#111",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#112",
+                "proporcao": 0.987,
+                "p_t": 1.604843722070047e-05,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#113",
+                "proporcao": 0.666,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#114",
+                "proporcao": 0.625,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#115",
+                "proporcao": 0.984,
+                "p_t": 0.00041529302291597837,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#116",
+                "proporcao": 0.991,
+                "p_t": 0.25055820897829245,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#117",
+                "proporcao": 0.506,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#118",
+                "proporcao": 0.505,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#119",
+                "proporcao": 0.285,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#120",
+                "proporcao": 0.999,
+                "p_t": 0.1334041322004151,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#121",
+                "proporcao": 0.644,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#122",
+                "proporcao": 0.618,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#123",
+                "proporcao": 0.645,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#124",
+                "proporcao": 0.632,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#125",
+                "proporcao": 0.115,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#126",
+                "proporcao": 0.633,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#127",
+                "proporcao": 0.644,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#128",
+                "proporcao": 0.122,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#129",
+                "proporcao": 0.508,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#130",
+                "proporcao": 0.985,
+                "p_t": 1.2268097631800454e-09,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#131",
+                "proporcao": 0.509,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#132",
+                "proporcao": 0.503,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#133",
+                "proporcao": 0.642,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#134",
+                "proporcao": 0.649,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#135",
+                "proporcao": 0.986,
+                "p_t": 0.2583074667780067,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#136",
+                "proporcao": 0.271,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#137",
+                "proporcao": 0.156,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#138",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#139",
+                "proporcao": 0.503,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#140",
+                "proporcao": 0.508,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#141",
+                "proporcao": 0.165,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#142",
+                "proporcao": 0.509,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#143",
+                "proporcao": 0.134,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#144",
+                "proporcao": 0.506,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#145",
+                "proporcao": 0.138,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#146",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#147",
+                "proporcao": 0.156,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#148",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "amostra2": {
+            "teste": "NonOverlappingTemplate",
+            "aprovado": false,
+            "reprovadas": 130,
+            "c_k": 3,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "NonOverlappingTemplate#1",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#2",
+                "proporcao": 0.148,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#3",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#4",
+                "proporcao": 0.317,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#5",
+                "proporcao": 0.5,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#6",
+                "proporcao": 0.323,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#7",
+                "proporcao": 0.5,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#8",
+                "proporcao": 0.631,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#9",
+                "proporcao": 0.501,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#10",
+                "proporcao": 0.501,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#11",
+                "proporcao": 0.495,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#12",
+                "proporcao": 0.614,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#13",
+                "proporcao": 0.14,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#14",
+                "proporcao": 0.657,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#15",
+                "proporcao": 0.994,
+                "p_t": 0.10687726023973165,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#16",
+                "proporcao": 0.12,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#17",
+                "proporcao": 0.499,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#18",
+                "proporcao": 0.499,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#19",
+                "proporcao": 0.662,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#20",
+                "proporcao": 0.501,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#21",
+                "proporcao": 0.65,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#22",
+                "proporcao": 0.991,
+                "p_t": 0.07713148725040579,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#23",
+                "proporcao": 0.136,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#24",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#25",
+                "proporcao": 0.996,
+                "p_t": 0.018286318025432728,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#26",
+                "proporcao": 0.992,
+                "p_t": 0.15549907937193194,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#27",
+                "proporcao": 0.132,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#28",
+                "proporcao": 0.981,
+                "p_t": 0.018036233681019805,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#29",
+                "proporcao": 0.644,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#30",
+                "proporcao": 0.147,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#31",
+                "proporcao": 0.5,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#32",
+                "proporcao": 0.499,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#33",
+                "proporcao": 0.654,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#34",
+                "proporcao": 0.661,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#35",
+                "proporcao": 0.144,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#36",
+                "proporcao": 0.996,
+                "p_t": 0.011626375830870315,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#37",
+                "proporcao": 0.642,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#38",
+                "proporcao": 0.148,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#39",
+                "proporcao": 0.169,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#40",
+                "proporcao": 0.989,
+                "p_t": 0.7197465748240339,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#41",
+                "proporcao": 0.628,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#42",
+                "proporcao": 0.129,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#43",
+                "proporcao": 0.117,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#44",
+                "proporcao": 0.146,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#45",
+                "proporcao": 0.995,
+                "p_t": 0.3085607584972535,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#46",
+                "proporcao": 0.633,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#47",
+                "proporcao": 0.493,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#48",
+                "proporcao": 0.66,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#49",
+                "proporcao": 0.494,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#50",
+                "proporcao": 0.498,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#51",
+                "proporcao": 0.499,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#52",
+                "proporcao": 0.144,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#53",
+                "proporcao": 0.5,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#54",
+                "proporcao": 1.0,
+                "p_t": 3.2174778907228625e-08,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#55",
+                "proporcao": 1.0,
+                "p_t": 1.5626585017888846e-06,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#56",
+                "proporcao": 0.619,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#57",
+                "proporcao": 0.143,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#58",
+                "proporcao": 0.641,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#59",
+                "proporcao": 0.628,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#60",
+                "proporcao": 0.493,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#61",
+                "proporcao": 0.998,
+                "p_t": 0.0066614593658835125,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#62",
+                "proporcao": 0.653,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#63",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#64",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#65",
+                "proporcao": 0.653,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#66",
+                "proporcao": 0.497,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#67",
+                "proporcao": 0.495,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#68",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#69",
+                "proporcao": 0.622,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#70",
+                "proporcao": 0.311,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#71",
+                "proporcao": 0.5,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#72",
+                "proporcao": 0.497,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#73",
+                "proporcao": 0.496,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#74",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#75",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#76",
+                "proporcao": 0.496,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#77",
+                "proporcao": 0.5,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#78",
+                "proporcao": 0.5,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#79",
+                "proporcao": 0.129,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#80",
+                "proporcao": 0.156,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#81",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#82",
+                "proporcao": 0.496,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#83",
+                "proporcao": 0.498,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#84",
+                "proporcao": 0.156,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#85",
+                "proporcao": 0.497,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#86",
+                "proporcao": 0.13,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#87",
+                "proporcao": 0.993,
+                "p_t": 0.775337477983193,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#88",
+                "proporcao": 0.628,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#89",
+                "proporcao": 0.501,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#90",
+                "proporcao": 0.141,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#91",
+                "proporcao": 0.99,
+                "p_t": 0.2596162815509689,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#92",
+                "proporcao": 0.621,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#93",
+                "proporcao": 0.99,
+                "p_t": 0.008385488877473429,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#94",
+                "proporcao": 0.609,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#95",
+                "proporcao": 0.623,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#96",
+                "proporcao": 0.501,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#97",
+                "proporcao": 0.136,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#98",
+                "proporcao": 0.501,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#99",
+                "proporcao": 0.497,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#100",
+                "proporcao": 0.499,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#101",
+                "proporcao": 0.995,
+                "p_t": 0.08455104595045439,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#102",
+                "proporcao": 0.497,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#103",
+                "proporcao": 0.126,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#104",
+                "proporcao": 0.638,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#105",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#106",
+                "proporcao": 0.641,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#107",
+                "proporcao": 0.274,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#108",
+                "proporcao": 0.995,
+                "p_t": 0.5422280239417125,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#109",
+                "proporcao": 0.643,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#110",
+                "proporcao": 0.637,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#111",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#112",
+                "proporcao": 0.987,
+                "p_t": 4.822349099937949e-05,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#113",
+                "proporcao": 0.645,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#114",
+                "proporcao": 0.63,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#115",
+                "proporcao": 0.99,
+                "p_t": 0.1948132245869918,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#116",
+                "proporcao": 0.983,
+                "p_t": 0.0010066172619957276,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#117",
+                "proporcao": 0.496,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#118",
+                "proporcao": 0.496,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#119",
+                "proporcao": 0.285,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#120",
+                "proporcao": 0.998,
+                "p_t": 0.07341687854273769,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#121",
+                "proporcao": 0.632,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#122",
+                "proporcao": 0.632,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#123",
+                "proporcao": 0.642,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#124",
+                "proporcao": 0.635,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#125",
+                "proporcao": 0.133,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#126",
+                "proporcao": 0.639,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#127",
+                "proporcao": 0.625,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#128",
+                "proporcao": 0.138,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#129",
+                "proporcao": 0.498,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#130",
+                "proporcao": 0.982,
+                "p_t": 0.00046708312817657626,
+                "total": 1000,
+                "aprovada": true
+              },
+              {
+                "nome": "NonOverlappingTemplate#131",
+                "proporcao": 0.501,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#132",
+                "proporcao": 0.494,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#133",
+                "proporcao": 0.645,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#134",
+                "proporcao": 0.65,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#135",
+                "proporcao": 0.98,
+                "p_t": 0.00026291515628673926,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#136",
+                "proporcao": 0.263,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#137",
+                "proporcao": 0.161,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#138",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#139",
+                "proporcao": 0.497,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#140",
+                "proporcao": 0.499,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#141",
+                "proporcao": 0.163,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#142",
+                "proporcao": 0.497,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#143",
+                "proporcao": 0.174,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#144",
+                "proporcao": 0.501,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#145",
+                "proporcao": 0.139,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#146",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#147",
+                "proporcao": 0.149,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "NonOverlappingTemplate#148",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "reprovacao_sistematica": true
+        },
+        "OverlappingTemplate": {
+          "amostra1": {
+            "teste": "OverlappingTemplate",
+            "aprovado": false,
+            "reprovadas": 1,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "OverlappingTemplate#1",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "amostra2": {
+            "teste": "OverlappingTemplate",
+            "aprovado": false,
+            "reprovadas": 1,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "OverlappingTemplate#1",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "reprovacao_sistematica": true
+        },
+        "Universal": {
+          "amostra1": {
+            "teste": "Universal",
+            "aprovado": false,
+            "reprovadas": 1,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "Universal#1",
+                "proporcao": 0.081,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "amostra2": {
+            "teste": "Universal",
+            "aprovado": false,
+            "reprovadas": 1,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "Universal#1",
+                "proporcao": 0.097,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "reprovacao_sistematica": true
+        },
+        "ApproximateEntropy": {
+          "amostra1": {
+            "teste": "ApproximateEntropy",
+            "aprovado": false,
+            "reprovadas": 1,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "ApproximateEntropy#1",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "amostra2": {
+            "teste": "ApproximateEntropy",
+            "aprovado": false,
+            "reprovadas": 1,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "ApproximateEntropy#1",
+                "proporcao": 0.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "reprovacao_sistematica": true
+        },
+        "RandomExcursions": {
+          "amostra1": {
+            "teste": "RandomExcursions",
+            "aprovado": false,
+            "reprovadas": 5,
+            "c_k": 1,
+            "q": 0.00544143347797517,
+            "estatisticas": [
+              {
+                "nome": "RandomExcursions#1",
+                "proporcao": 0.9842931937172775,
+                "p_t": 0.0005517102064805311,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursions#2",
+                "proporcao": 0.9738219895287958,
+                "p_t": 2.1867412531408508e-15,
+                "total": 382,
+                "aprovada": false
+              },
+              {
+                "nome": "RandomExcursions#3",
+                "proporcao": 0.7433862433862434,
+                "p_t": 7.958508159500497e-143,
+                "total": 378,
+                "aprovada": false
+              },
+              {
+                "nome": "RandomExcursions#4",
+                "proporcao": 0.6299212598425197,
+                "p_t": 1.479836322599238e-291,
+                "total": 381,
+                "aprovada": false
+              },
+              {
+                "nome": "RandomExcursions#5",
+                "proporcao": 0.7034120734908137,
+                "p_t": 1.8889960609019777e-231,
+                "total": 381,
+                "aprovada": false
+              },
+              {
+                "nome": "RandomExcursions#6",
+                "proporcao": 0.8900523560209425,
+                "p_t": 9.681176210153305e-61,
+                "total": 382,
+                "aprovada": false
+              },
+              {
+                "nome": "RandomExcursions#7",
+                "proporcao": 0.9921465968586387,
+                "p_t": 0.11792513648502567,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursions#8",
+                "proporcao": 0.9895287958115183,
+                "p_t": 0.06666324339138396,
+                "total": 382,
+                "aprovada": true
+              }
+            ]
+          },
+          "amostra2": {
+            "teste": "RandomExcursions",
+            "aprovado": false,
+            "reprovadas": 6,
+            "c_k": 1,
+            "q": 0.008345906087691615,
+            "estatisticas": [
+              {
+                "nome": "RandomExcursions#1",
+                "proporcao": 0.9769452449567724,
+                "p_t": 2.818840947341935e-05,
+                "total": 347,
+                "aprovada": false
+              },
+              {
+                "nome": "RandomExcursions#2",
+                "proporcao": 0.9596541786743515,
+                "p_t": 8.892057807747236e-24,
+                "total": 347,
+                "aprovada": false
+              },
+              {
+                "nome": "RandomExcursions#3",
+                "proporcao": 0.7368421052631579,
+                "p_t": 9.890914162627234e-175,
+                "total": 342,
+                "aprovada": false
+              },
+              {
+                "nome": "RandomExcursions#4",
+                "proporcao": 0.6463768115942029,
+                "p_t": 6.885334559942274e-274,
+                "total": 345,
+                "aprovada": false
+              },
+              {
+                "nome": "RandomExcursions#5",
+                "proporcao": 0.7002881844380403,
+                "p_t": 1.5925117513738431e-214,
+                "total": 347,
+                "aprovada": false
+              },
+              {
+                "nome": "RandomExcursions#6",
+                "proporcao": 0.9135446685878963,
+                "p_t": 9.405727692690695e-67,
+                "total": 347,
+                "aprovada": false
+              },
+              {
+                "nome": "RandomExcursions#7",
+                "proporcao": 0.9740634005763689,
+                "p_t": 0.03741003564922026,
+                "total": 347,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursions#8",
+                "proporcao": 0.9827089337175793,
+                "p_t": 0.42199043143532533,
+                "total": 347,
+                "aprovada": true
+              }
+            ]
+          },
+          "reprovacao_sistematica": true
+        },
+        "RandomExcursionsVariant": {
+          "amostra1": {
+            "teste": "RandomExcursionsVariant",
+            "aprovado": true,
+            "reprovadas": 0,
+            "c_k": 1,
+            "q": 0.005836368317155166,
+            "estatisticas": [
+              {
+                "nome": "RandomExcursionsVariant#1",
+                "proporcao": 0.9921465968586387,
+                "p_t": 0.5876419708473954,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursionsVariant#2",
+                "proporcao": 0.9921465968586387,
+                "p_t": 0.35559536883747306,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursionsVariant#3",
+                "proporcao": 0.9921465968586387,
+                "p_t": 0.9134678897148426,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursionsVariant#4",
+                "proporcao": 0.9947643979057592,
+                "p_t": 0.8189943740287015,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursionsVariant#5",
+                "proporcao": 0.9921465968586387,
+                "p_t": 0.5028250332083265,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursionsVariant#6",
+                "proporcao": 0.9895287958115183,
+                "p_t": 0.36857866885194523,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursionsVariant#7",
+                "proporcao": 0.9895287958115183,
+                "p_t": 0.2057435479677191,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursionsVariant#8",
+                "proporcao": 0.9973821989528796,
+                "p_t": 0.8236871916051166,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursionsVariant#9",
+                "proporcao": 0.9869109947643979,
+                "p_t": 0.47227058703535363,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursionsVariant#10",
+                "proporcao": 0.9869109947643979,
+                "p_t": 0.28773800077783723,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursionsVariant#11",
+                "proporcao": 0.9842931937172775,
+                "p_t": 0.19728056099606847,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursionsVariant#12",
+                "proporcao": 0.9790575916230366,
+                "p_t": 0.043943307876879265,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursionsVariant#13",
+                "proporcao": 0.9842931937172775,
+                "p_t": 0.03899801758287105,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursionsVariant#14",
+                "proporcao": 0.9869109947643979,
+                "p_t": 0.5876419708473957,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursionsVariant#15",
+                "proporcao": 0.9895287958115183,
+                "p_t": 0.7949022603049493,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursionsVariant#16",
+                "proporcao": 0.9869109947643979,
+                "p_t": 0.9265369058386622,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursionsVariant#17",
+                "proporcao": 0.9869109947643979,
+                "p_t": 0.8374912843243696,
+                "total": 382,
+                "aprovada": true
+              },
+              {
+                "nome": "RandomExcursionsVariant#18",
+                "proporcao": 0.9869109947643979,
+                "p_t": 0.31844700671037324,
+                "total": 382,
+                "aprovada": true
+              }
+            ]
+          },
+          "amostra2": null,
+          "reprovacao_sistematica": false
+        },
+        "Serial": {
+          "amostra1": {
+            "teste": "Serial",
+            "aprovado": false,
+            "reprovadas": 2,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "Serial#1",
+                "proporcao": 0.51,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "Serial#2",
+                "proporcao": 1.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "amostra2": {
+            "teste": "Serial",
+            "aprovado": false,
+            "reprovadas": 2,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "Serial#1",
+                "proporcao": 0.501,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              },
+              {
+                "nome": "Serial#2",
+                "proporcao": 1.0,
+                "p_t": 0.0,
+                "total": 1000,
+                "aprovada": false
+              }
+            ]
+          },
+          "reprovacao_sistematica": true
+        },
+        "LinearComplexity": {
+          "amostra1": {
+            "teste": "LinearComplexity",
+            "aprovado": true,
+            "reprovadas": 0,
+            "c_k": 0,
+            "q": 0.0034311978820346332,
+            "estatisticas": [
+              {
+                "nome": "LinearComplexity#1",
+                "proporcao": 0.99,
+                "p_t": 0.417219256240965,
+                "total": 1000,
+                "aprovada": true
+              }
+            ]
+          },
+          "amostra2": null,
+          "reprovacao_sistematica": false
+        }
+      }
+    }
+  },
+  "duracao_s": 4152.1
+}

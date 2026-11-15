@@ -1,0 +1,6 @@
+portaria: concluído em 148.0 s; resultados em resultados/portaria.json
+aderencia: concluído em 66.6 s; resultados em resultados/aderencia.json
+cenarios: concluído em 1104.1 s; resultados em resultados/cenarios.json
+nist: concluído em 4209.6 s; resultados em resultados/nist_hmac_mt.json
+nist: concluído em 4152.1 s; resultados em resultados/nist_randu_r31.json
+nist: concluído em 4217.5 s; resultados em resultados/nist_randu_r16.json

@@ -1,0 +1,229 @@
+{
+  "deteccao": {
+    "C0/sorteio": {
+      "deteccoes": 0,
+      "execucoes": 1000,
+      "taxa": 0.0,
+      "ic95": [
+        0.0,
+        0.003682083896865671
+      ],
+      "esperado": 0.0
+    },
+    "C0/caixa": {
+      "deteccoes": 0,
+      "execucoes": 1000,
+      "taxa": 0.0,
+      "ic95": [
+        0.0,
+        0.003682083896865671
+      ],
+      "esperado": 0.0
+    },
+    "C1/sorteio": {
+      "deteccoes": 1000,
+      "execucoes": 1000,
+      "taxa": 1.0,
+      "ic95": [
+        0.9963179161031344,
+        1.0
+      ],
+      "esperado": 1.0
+    },
+    "C1/caixa": {
+      "deteccoes": 1000,
+      "execucoes": 1000,
+      "taxa": 1.0,
+      "ic95": [
+        0.9963179161031344,
+        1.0
+      ],
+      "esperado": 1.0
+    },
+    "C2/sorteio": {
+      "deteccoes": 1000,
+      "execucoes": 1000,
+      "taxa": 1.0,
+      "ic95": [
+        0.9963179161031344,
+        1.0
+      ],
+      "esperado": 1.0
+    },
+    "C2/caixa": {
+      "deteccoes": 1000,
+      "execucoes": 1000,
+      "taxa": 1.0,
+      "ic95": [
+        0.9963179161031344,
+        1.0
+      ],
+      "esperado": 1.0
+    },
+    "C3/caixa": {
+      "deteccoes": 652,
+      "execucoes": 1000,
+      "taxa": 0.652,
+      "ic95": [
+        0.6215630555184664,
+        0.681538785852142
+      ],
+      "esperado": 0.6339676587267709
+    },
+    "C4a/sorteio": {
+      "deteccoes": 0,
+      "execucoes": 1000,
+      "taxa": 0.0,
+      "ic95": [
+        0.0,
+        0.003682083896865671
+      ],
+      "esperado": 0.0
+    },
+    "C4a/caixa": {
+      "deteccoes": 0,
+      "execucoes": 1000,
+      "taxa": 0.0,
+      "ic95": [
+        0.0,
+        0.003682083896865671
+      ],
+      "esperado": 0.0
+    },
+    "C4b/sorteio": {
+      "deteccoes": 0,
+      "execucoes": 1000,
+      "taxa": 0.0,
+      "ic95": [
+        0.0,
+        0.003682083896865671
+      ],
+      "esperado": 0.0
+    },
+    "C4b/caixa": {
+      "deteccoes": 0,
+      "execucoes": 1000,
+      "taxa": 0.0,
+      "ic95": [
+        0.0,
+        0.003682083896865671
+      ],
+      "esperado": 0.0
+    },
+    "C5/caixa": {
+      "deteccoes": 0,
+      "execucoes": 1000,
+      "taxa": 0.0,
+      "ic95": [
+        0.0,
+        0.003682083896865671
+      ],
+      "esperado": 0.0
+    }
+  },
+  "vantagem": {
+    "C0/caixa": {
+      "media": 5.045,
+      "confere_com_registro": true,
+      "distribuicao": {
+        "0": 4,
+        "1": 30,
+        "2": 84,
+        "3": 158,
+        "4": 155,
+        "5": 170,
+        "6": 140,
+        "7": 122,
+        "8": 70,
+        "9": 39,
+        "10": 14,
+        "11": 10,
+        "12": 4
+      },
+      "media_teorica_honesta": 4.999999999999997,
+      "media_teorica_escolha": null
+    },
+    "C0/sorteio": {
+      "media": 1.008,
+      "confere_com_registro": true,
+      "distribuicao": {
+        "0": 355,
+        "1": 377,
+        "2": 193,
+        "3": 61,
+        "4": 9,
+        "5": 4,
+        "6": 1
+      },
+      "media_teorica_honesta": 0.9999999999999999,
+      "media_teorica_escolha": null
+    },
+    "C4a/caixa": {
+      "media": 0.004,
+      "confere_com_registro": true,
+      "distribuicao": {
+        "0": 996,
+        "1": 4
+      },
+      "media_teorica_honesta": 4.999999999999997,
+      "media_teorica_escolha": 0.0026369692336144016
+    },
+    "C4a/sorteio": {
+      "media": 5.461,
+      "confere_com_registro": true,
+      "distribuicao": {
+        "4": 36,
+        "5": 539,
+        "6": 359,
+        "7": 60,
+        "8": 6
+      },
+      "media_teorica_honesta": 0.9999999999999999,
+      "media_teorica_escolha": 5.459746244342685
+    },
+    "C4b/caixa": {
+      "media": 5.016,
+      "confere_com_registro": true,
+      "distribuicao": {
+        "0": 4,
+        "1": 34,
+        "2": 78,
+        "3": 127,
+        "4": 185,
+        "5": 192,
+        "6": 153,
+        "7": 96,
+        "8": 70,
+        "9": 31,
+        "10": 20,
+        "11": 6,
+        "12": 3,
+        "14": 1
+      },
+      "media_teorica_honesta": 4.999999999999997,
+      "media_teorica_escolha": null
+    },
+    "C4b/sorteio": {
+      "media": 0.965,
+      "confere_com_registro": true,
+      "distribuicao": {
+        "0": 373,
+        "1": 375,
+        "2": 183,
+        "3": 56,
+        "4": 10,
+        "5": 2,
+        "6": 1
+      },
+      "media_teorica_honesta": 0.9999999999999999,
+      "media_teorica_escolha": null
+    }
+  },
+  "c3": {
+    "execucoes": 1000,
+    "media_eventos_alterados": 1.012,
+    "ciclos_sem_alteracao": 348,
+    "deteccao_coincide_com_alteracao": 1000
+  },
+  "c5_tempo_tabela_s": 0.82
+}

@@ -1,0 +1,194 @@
+{
+  "parametros": {
+    "experimento": "cenarios",
+    "saida": "resultados",
+    "sequencias": 1000,
+    "valores": 100000,
+    "ciclos": 1000,
+    "eventos": 10000,
+    "execucoes": 1000,
+    "sts": null
+  },
+  "resultados": {
+    "C0/sorteio": {
+      "execucoes": 1000,
+      "deteccoes": 0,
+      "taxa": 0.0,
+      "esperado": 0.0,
+      "motivos": [
+        [
+          "100 eventos conferidos",
+          1000
+        ]
+      ]
+    },
+    "C0/caixa": {
+      "execucoes": 1000,
+      "deteccoes": 0,
+      "taxa": 0.0,
+      "esperado": 0.0,
+      "motivos": [
+        [
+          "100 eventos conferidos",
+          1000
+        ]
+      ]
+    },
+    "C1/sorteio": {
+      "execucoes": 1000,
+      "deteccoes": 1000,
+      "taxa": 1.0,
+      "esperado": 1.0,
+      "motivos": [
+        [
+          "semente revelada não corresponde ao compromisso",
+          1000
+        ]
+      ]
+    },
+    "C1/caixa": {
+      "execucoes": 1000,
+      "deteccoes": 1000,
+      "taxa": 1.0,
+      "esperado": 1.0,
+      "motivos": [
+        [
+          "semente revelada não corresponde ao compromisso",
+          1000
+        ]
+      ]
+    },
+    "C2/sorteio": {
+      "execucoes": 1000,
+      "deteccoes": 1000,
+      "taxa": 1.0,
+      "esperado": 1.0,
+      "motivos": [
+        [
+          "resultado divergente no evento 48",
+          21
+        ],
+        [
+          "resultado divergente no evento 31",
+          18
+        ],
+        [
+          "resultado divergente no evento 75",
+          17
+        ]
+      ]
+    },
+    "C2/caixa": {
+      "execucoes": 1000,
+      "deteccoes": 1000,
+      "taxa": 1.0,
+      "esperado": 1.0,
+      "motivos": [
+        [
+          "resultado divergente no evento 55",
+          17
+        ],
+        [
+          "resultado divergente no evento 60",
+          16
+        ],
+        [
+          "resultado divergente no evento 61",
+          16
+        ]
+      ]
+    },
+    "C3/caixa": {
+      "execucoes": 1000,
+      "deteccoes": 652,
+      "taxa": 0.652,
+      "esperado": 0.6339676587267709,
+      "motivos": [
+        [
+          "100 eventos conferidos",
+          348
+        ],
+        [
+          "resultado divergente no evento 7",
+          13
+        ],
+        [
+          "resultado divergente no evento 16",
+          13
+        ]
+      ],
+      "media_eventos_alterados": 1.012
+    },
+    "C4a/sorteio": {
+      "execucoes": 1000,
+      "deteccoes": 0,
+      "taxa": 0.0,
+      "esperado": 0.0,
+      "motivos": [
+        [
+          "100 eventos conferidos",
+          1000
+        ]
+      ],
+      "vantagem_media": 5.461,
+      "p_aderencia_agregado": 0.0
+    },
+    "C4a/caixa": {
+      "execucoes": 1000,
+      "deteccoes": 0,
+      "taxa": 0.0,
+      "esperado": 0.0,
+      "motivos": [
+        [
+          "100 eventos conferidos",
+          1000
+        ]
+      ],
+      "vantagem_media": 0.004,
+      "p_aderencia_agregado": 0.0
+    },
+    "C4b/sorteio": {
+      "execucoes": 1000,
+      "deteccoes": 0,
+      "taxa": 0.0,
+      "esperado": 0.0,
+      "motivos": [
+        [
+          "100 eventos conferidos",
+          1000
+        ]
+      ],
+      "vantagem_media": 0.965,
+      "p_aderencia_agregado": 0.1384144350220938
+    },
+    "C4b/caixa": {
+      "execucoes": 1000,
+      "deteccoes": 0,
+      "taxa": 0.0,
+      "esperado": 0.0,
+      "motivos": [
+        [
+          "100 eventos conferidos",
+          1000
+        ]
+      ],
+      "vantagem_media": 5.016,
+      "p_aderencia_agregado": 0.5774181782455736
+    },
+    "C5/caixa": {
+      "execucoes": 1000,
+      "deteccoes": 0,
+      "taxa": 0.0,
+      "esperado": 0.0,
+      "motivos": [
+        [
+          "100 eventos conferidos",
+          1000
+        ]
+      ],
+      "sementes_recuperadas": 1000,
+      "resultados_previstos": 1000
+    }
+  },
+  "duracao_s": 1104.1
+}
