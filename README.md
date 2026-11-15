@@ -78,12 +78,15 @@ python -m avaliacao.diagnostico_r16  --saida resultados   # variância por bloco
 python -m avaliacao.figuras --saida resultados --destino figuras/cenarios-c4.pdf
 ```
 
-O teste P7 planejado (aproximação de Poisson, valor-p bilateral discreto) é
-mantido como `portaria.p7_duplicacao_poisson`; por não ser uniforme sob H0,
-foi substituído por `portaria.p7_duplicacao`, que usa a distribuição exata do
-número de colisões e a transformação integral aleatorizada. A reanálise
-confere que a versão planejada reproduz exatamente `portaria.json` antes de
-aplicar a corrigida (`portaria_p7_corrigido.json`).
+O teste P7 usado nos resultados do TCC é `portaria.p7_duplicacao`, que
+calcula o valor-p pela distribuição exata do número de colisões e o
+aleatoriza pela transformação integral, de modo que seja uniforme sob H0. O
+módulo mantém também `portaria.p7_duplicacao_poisson`, com aproximação de
+Poisson e valor-p bilateral discreto, que não tem essa propriedade e foi a
+versão usada na execução registrada em `portaria.json`. Por isso, os valores
+de P7 apresentados no TCC estão em `portaria_p7_corrigido.json`, gerado por
+`reanalise_p7` a partir das mesmas sementes, depois de conferir que a versão
+de Poisson reproduz exatamente `portaria.json`.
 
 
 ## Licença
